@@ -1,0 +1,5 @@
+gem 'fastlane-plugin-increment_version_code'
+
+#gem 'plugin_name_here'
+#screenshot generator here
+#text changer plugin here

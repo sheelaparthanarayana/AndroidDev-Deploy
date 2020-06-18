@@ -1,0 +1,289 @@
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/faraday_middleware-0.13.1/lib/faraday_middleware/response_middleware.rb:14: warning: Capturing the given block using Proc.new is deprecated; use `&block` instead
+[16:49:11]: [33mfastlane detected a Gemfile in the current directory[0m
+[16:49:11]: [33mHowever, it seems like you didn't use `bundle exec`[0m
+[16:49:11]: [33mTo launch fastlane faster, please use[0m
+[16:49:11]: 
+[16:49:11]: [36m$ bundle exec fastlane test[0m
+[16:49:11]: 
+[16:49:11]: [33mGet started using a Gemfile for fastlane https://docs.fastlane.tools/getting-started/ios/setup/#use-a-gemfile[0m
++------------------------+---------+------------------------+
+|                       [32mUsed plugins[0m                        |
++------------------------+---------+------------------------+
+| Plugin                 | Version | Action                 |
++------------------------+---------+------------------------+
+| fastlane-plugin-incre  | 0.4.3   | increment_version_cod  |
+| ment_version_code      |         | e                      |
++------------------------+---------+------------------------+
+
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/fastlane/lib/fastlane/plugins/plugin_manager.rb:162: warning: calling URI.open via Kernel#open is deprecated, call URI.open directly or use URI#open
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/fastlane_core/lib/fastlane_core/ui/interface.rb:141: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/fastlane_core/lib/fastlane_core/ui/errors/fastlane_error.rb:9: warning: The called method `initialize' is defined here
+[16:49:26]: [32m------------------------------[0m
+[16:49:26]: [32m--- Step: default_platform ---[0m
+[16:49:26]: [32m------------------------------[0m
+[16:49:26]: [32mDriving the lane 'android test' 🚀[0m
+[16:49:26]: [32m------------------[0m
+[16:49:26]: [32m--- Step: test ---[0m
+[16:49:26]: [32m------------------[0m
+[16:49:26]: [36m$ "S:/Masters/Winter20-Last term/Master Project/DailyBugle Master/DailyBugle/gradlew" test -p .[0m
+[16:49:27]: ▸ [35mTo honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.[0m
+[16:49:30]: ▸ [35mDaemon will be stopped at the end of the build stopping after processing[0m
+[16:49:39]: ▸ [35m> Task :app:preBuild UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:preDebugBuild UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:compileDebugAidl NO-SOURCE[0m
+[16:49:39]: ▸ [35m> Task :app:checkDebugManifest UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:compileDebugRenderscript NO-SOURCE[0m
+[16:49:39]: ▸ [35m> Task :app:generateDebugBuildConfig UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:writeDebugApplicationId UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:generateSafeArgsDebug UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:prepareLintJar UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:prepareLintJarForPublish UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:generateDebugSources UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:dataBindingExportBuildInfoDebug UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:dataBindingMergeGenClassesDebug UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:generateDebugResValues UP-TO-DATE[0m
+[16:49:39]: ▸ [35m> Task :app:generateDebugResources UP-TO-DATE[0m
+[16:49:40]: ▸ [35m> Task :app:mergeDebugResources UP-TO-DATE[0m
+[16:49:40]: ▸ [35m> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE[0m
+[16:49:40]: ▸ [35m> Task :app:dataBindingExportFeaturePackageIdsDebug UP-TO-DATE[0m
+[16:49:40]: ▸ [35m> Task :app:mainApkListPersistenceDebug[0m
+[16:49:40]: ▸ [35m> Task :app:createDebugCompatibleScreenManifests[0m
+[16:49:40]: ▸ [35m> Task :app:preDebugUnitTestBuild UP-TO-DATE[0m
+[16:49:40]: ▸ [35m> Task :app:processDebugJavaRes NO-SOURCE[0m
+[16:49:40]: ▸ [35m> Task :app:processDebugUnitTestJavaRes NO-SOURCE[0m
+[16:49:40]: ▸ [35m> Task :app:preReleaseBuild UP-TO-DATE[0m
+[16:49:40]: ▸ [35m> Task :app:compileReleaseAidl NO-SOURCE[0m
+[16:49:40]: ▸ [35m> Task :app:compileReleaseRenderscript NO-SOURCE[0m
+[16:49:40]: ▸ [35m> Task :app:checkReleaseManifest UP-TO-DATE[0m
+[16:49:41]: ▸ [35m> Task :app:generateReleaseBuildConfig UP-TO-DATE[0m
+[16:49:41]: ▸ [35m> Task :app:processDebugManifest[0m
+[16:49:44]: ▸ [35m> Task :app:processDebugResources[0m
+[16:49:52]: ▸ [35m> Task :app:kaptGenerateStubsDebugKotlin[0m
+[16:50:00]: ▸ [35m> Task :app:kaptDebugKotlin[0m
+[16:50:00]: ▸ [35mw: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC), android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).[0m
+[16:50:02]: ▸ [35m> Task :app:compileDebugKotlin[0m
+[16:50:02]: ▸ [35m> Task :app:javaPreCompileDebug UP-TO-DATE[0m
+[16:50:07]: ▸ [35m> Task :app:compileDebugJavaWithJavac[0m
+[16:50:07]: ▸ [35m> Task :app:kaptGenerateStubsDebugUnitTestKotlin NO-SOURCE[0m
+[16:50:09]: ▸ [35m> Task :app:kaptDebugUnitTestKotlin[0m
+[16:50:09]: ▸ [35mAnnotation processors discovery from compile classpath is deprecated.[0m
+[16:50:09]: ▸ [35mSet 'kapt.includeCompileClasspath = false' to disable discovery.[0m
+[16:50:09]: ▸ [35mRun the build with '--info' for more details.[0m
+[16:50:11]: ▸ [35m> Task :app:compileDebugUnitTestKotlin NO-SOURCE[0m
+[16:50:11]: ▸ [35m> Task :app:writeReleaseApplicationId UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:generateSafeArgsRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:generateReleaseSources UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:dataBindingExportBuildInfoRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:dataBindingMergeGenClassesRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:generateReleaseResValues UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:generateReleaseResources UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:mergeReleaseResources UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:dataBindingGenBaseClassesRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:dataBindingExportFeaturePackageIdsRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:mainApkListPersistenceRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:processReleaseManifest UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:processReleaseResources UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:kaptGenerateStubsReleaseKotlin UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:kaptReleaseKotlin UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:compileReleaseKotlin UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:javaPreCompileRelease UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:compileReleaseJavaWithJavac UP-TO-DATE[0m
+[16:50:11]: ▸ [35m> Task :app:kaptGenerateStubsReleaseUnitTestKotlin NO-SOURCE[0m
+[16:50:13]: ▸ [35m> Task :app:javaPreCompileDebugUnitTest[0m
+[16:50:13]: ▸ [35mAnnotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the testAnnotationProcessor configuration.[0m
+[16:50:13]: ▸ [35m- auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4)[0m
+[16:50:13]: ▸ [35mAlternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.[0m
+[16:50:13]: ▸ [35mSee https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.[0m
+[16:50:25]: ▸ [35m> Task :app:kaptReleaseUnitTestKotlin[0m
+[16:50:25]: ▸ [35mAnnotation processors discovery from compile classpath is deprecated.[0m
+[16:50:25]: ▸ [35mSet 'kapt.includeCompileClasspath = false' to disable discovery.[0m
+[16:50:25]: ▸ [35mRun the build with '--info' for more details.[0m
+[16:50:25]: ▸ [35m> Task :app:compileReleaseUnitTestKotlin NO-SOURCE[0m
+[16:50:25]: ▸ [35m> Task :app:preReleaseUnitTestBuild UP-TO-DATE[0m
+[16:50:25]: ▸ [35m> Task :app:processReleaseJavaRes NO-SOURCE[0m
+[16:50:25]: ▸ [35m> Task :app:processReleaseUnitTestJavaRes NO-SOURCE[0m
+[16:50:25]: ▸ [35m> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE[0m
+[16:50:25]: ▸ [35m> Task :app:testDebugUnitTest NO-SOURCE[0m
+[16:50:25]: ▸ [35m> Task :app:javaPreCompileReleaseUnitTest[0m
+[16:50:25]: ▸ [35mAnnotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the testAnnotationProcessor configuration.[0m
+[16:50:25]: ▸ [35m- auto-service-1.0-rc4.jar (com.google.auto.service:auto-service:1.0-rc4)[0m
+[16:50:25]: ▸ [35mAlternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.[0m
+[16:50:25]: ▸ [35mSee https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.[0m
+[16:50:25]: ▸ [35m> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE[0m
+[16:50:25]: ▸ [35m> Task :app:testReleaseUnitTest NO-SOURCE[0m
+[16:50:25]: ▸ [35m> Task :app:test UP-TO-DATE[0m
+[16:50:25]: ▸ [35mBUILD SUCCESSFUL in 58s[0m
+[16:50:25]: ▸ [35m46 actionable tasks: 12 executed, 34 up-to-date[0m
+[16:50:26]: [32m------------------------------------[0m
+[16:50:26]: [32m--- Step: increment_version_code ---[0m
+[16:50:26]: [32m------------------------------------[0m
+[16:50:26]: The increment_version_code plugin will use gradle file at (app/build.gradle)!
+[16:50:26]:  -> line: (    versionCode 30
+)!
+[16:50:26]: [32m☝️ Version code has been changed to 31[0m
+
++------+------------------------+-------------+
+|              [32mfastlane summary[0m               |
++------+------------------------+-------------+
+| Step | Action                 | Time (in s) |
++------+------------------------+-------------+
+| 1    | default_platform       | 0           |
+| 2    | test                   | 59          |
+| 3    | increment_version_cod  | 0           |
+|      | e                      |             |
++------+------------------------+-------------+
+
+[16:50:26]: [32mfastlane.tools finished successfully 🎉[0m
+
+#######################################################################
+# fastlane 2.144.0 is available. You are on 2.142.0.
+# You should use the latest version.
+# Please update using `sudo gem install fastlane`.
+#######################################################################
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/faraday_middleware-0.13.1/lib/faraday_middleware/response_middleware.rb:14: warning: Capturing the given block using Proc.new is deprecated; use `&block` instead
+[16:50:44]: [33mfastlane detected a Gemfile in the current directory[0m
+[16:50:44]: [33mHowever, it seems like you didn't use `bundle exec`[0m
+[16:50:44]: [33mTo launch fastlane faster, please use[0m
+[16:50:44]: 
+[16:50:44]: [36m$ bundle exec fastlane internal[0m
+[16:50:44]: 
+[16:50:44]: [33mGet started using a Gemfile for fastlane https://docs.fastlane.tools/getting-started/ios/setup/#use-a-gemfile[0m
++------------------------+---------+------------------------+
+|                       [32mUsed plugins[0m                        |
++------------------------+---------+------------------------+
+| Plugin                 | Version | Action                 |
++------------------------+---------+------------------------+
+| fastlane-plugin-incre  | 0.4.3   | increment_version_cod  |
+| ment_version_code      |         | e                      |
++------------------------+---------+------------------------+
+
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/fastlane/lib/fastlane/plugins/plugin_manager.rb:162: warning: calling URI.open via Kernel#open is deprecated, call URI.open directly or use URI#open
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/fastlane_core/lib/fastlane_core/ui/interface.rb:141: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/fastlane_core/lib/fastlane_core/ui/errors/fastlane_error.rb:9: warning: The called method `initialize' is defined here
+[16:50:59]: [32m------------------------------[0m
+[16:50:59]: [32m--- Step: default_platform ---[0m
+[16:50:59]: [32m------------------------------[0m
+[16:50:59]: [32mDriving the lane 'android internal' 🚀[0m
+[16:50:59]: [32m-----------------------------[0m
+[16:50:59]: [32m--- Step: assembleRelease ---[0m
+[16:50:59]: [32m-----------------------------[0m
+[16:50:59]: [36m$ "S:/Masters/Winter20-Last term/Master Project/DailyBugle Master/DailyBugle/gradlew" assembleRelease -p .[0m
+[16:51:00]: ▸ [35mTo honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.[0m
+[16:51:03]: ▸ [35mDaemon will be stopped at the end of the build stopping after processing[0m
+[16:51:14]: ▸ [35m> Task :app:preBuild UP-TO-DATE[0m
+[16:51:14]: ▸ [35m> Task :app:preReleaseBuild UP-TO-DATE[0m
+[16:51:14]: ▸ [35m> Task :app:compileReleaseAidl NO-SOURCE[0m
+[16:51:14]: ▸ [35m> Task :app:checkReleaseManifest UP-TO-DATE[0m
+[16:51:14]: ▸ [35m> Task :app:generateReleaseBuildConfig[0m
+[16:51:14]: ▸ [35m> Task :app:compileReleaseRenderscript NO-SOURCE[0m
+[16:51:14]: ▸ [35m> Task :app:writeReleaseApplicationId UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:generateSafeArgsRelease UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:prepareLintJar UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:prepareLintJarForPublish UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:generateReleaseSources[0m
+[16:51:15]: ▸ [35m> Task :app:dataBindingExportBuildInfoRelease UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:dataBindingMergeGenClassesRelease UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:generateReleaseResValues UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:generateReleaseResources UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:mergeReleaseResources UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:dataBindingGenBaseClassesRelease UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:dataBindingExportFeaturePackageIdsRelease UP-TO-DATE[0m
+[16:51:15]: ▸ [35m> Task :app:mainApkListPersistenceRelease[0m
+[16:51:15]: ▸ [35m> Task :app:createReleaseCompatibleScreenManifests[0m
+[16:51:16]: ▸ [35m> Task :app:processReleaseManifest[0m
+[16:51:18]: ▸ [35m> Task :app:processReleaseResources[0m
+[16:51:27]: ▸ [35m> Task :app:kaptGenerateStubsReleaseKotlin[0m
+[16:51:33]: ▸ [35m> Task :app:kaptReleaseKotlin[0m
+[16:51:33]: ▸ [35mw: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC), android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).[0m
+[16:51:35]: ▸ [35m> Task :app:compileReleaseKotlin[0m
+[16:51:35]: ▸ [35m> Task :app:javaPreCompileRelease UP-TO-DATE[0m
+[16:51:40]: ▸ [35m> Task :app:compileReleaseJavaWithJavac[0m
+[16:51:40]: ▸ [35m> Task :app:compileReleaseSources[0m
+[16:52:02]: ▸ [35m> Task :app:lintVitalRelease[0m
+[16:52:02]: ▸ [35m> Task :app:checkReleaseDuplicateClasses UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:transformClassesWithDexBuilderForRelease[0m
+[16:52:05]: ▸ [35m> Task :app:desugarReleaseFileDependencies UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:mergeExtDexRelease UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:mergeReleaseShaders UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:compileReleaseShaders UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:generateReleaseAssets UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:mergeReleaseAssets UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:processReleaseJavaRes NO-SOURCE[0m
+[16:52:05]: ▸ [35m> Task :app:validateSigningRelease UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:signingConfigWriterRelease UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:mergeReleaseJavaResource UP-TO-DATE[0m
+[16:52:05]: ▸ [35m> Task :app:mergeReleaseJniLibFolders UP-TO-DATE[0m
+[16:52:06]: ▸ [35m> Task :app:mergeReleaseNativeLibs UP-TO-DATE[0m
+[16:52:06]: ▸ [35m> Task :app:stripReleaseDebugSymbols UP-TO-DATE[0m
+[16:52:09]: ▸ [35m> Task :app:mergeDexRelease[0m
+[16:52:12]: ▸ [35m> Task :app:packageRelease[0m
+[16:52:12]: ▸ [35m> Task :app:assembleRelease[0m
+[16:52:12]: ▸ [35mBUILD SUCCESSFUL in 1m 12s[0m
+[16:52:12]: ▸ [35m38 actionable tasks: 13 executed, 25 up-to-date[0m
+[16:52:14]: [32m--------------------[0m
+[16:52:14]: [32m--- Step: supply ---[0m
+[16:52:14]: [32m--------------------[0m
+
++-------------------------+--------------------------------------+
+|                   [32mSummary for supply 2.142.0[0m                   |
++-------------------------+--------------------------------------+
+| track                   | internal                             |
+| apk                     | S:/Masters/Winter20-Last             |
+|                         | term/Master Project/DailyBugle       |
+|                         | Master/DailyBugle/app/build/outputs  |
+|                         | /apk/release/app-release.apk         |
+| package_name            | com.prudhvir3ddy.dailybugle          |
+| release_status          | completed                            |
+| metadata_path           | ./fastlane/metadata/android          |
+| json_key                | ./fastlane-secret.json               |
+| skip_upload_apk         | false                                |
+| skip_upload_aab         | false                                |
+| skip_upload_metadata    | false                                |
+| skip_upload_changelogs  | false                                |
+| skip_upload_images      | false                                |
+| skip_upload_screenshots | false                                |
+| validate_only           | false                                |
+| check_superseded_tracks | false                                |
+| timeout                 | 300                                  |
+| deactivate_on_promote   | true                                 |
++-------------------------+--------------------------------------+
+
+[16:52:16]: Preparing apk at path 'S:/Masters/Winter20-Last term/Master Project/DailyBugle Master/DailyBugle/app/build/outputs/apk/release/app-release.apk' for upload...
+[16:52:21]: 	Version Code: 31
+[16:52:21]: Updating track 'internal'...
+[16:52:22]: Preparing to upload for language 'en-US'...
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/supply/lib/supply/client.rb:281: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/google-api-client-0.36.4/generated/google/apis/androidpublisher_v3/classes.rb:1030: warning: The called method `initialize' is defined here
+[16:52:23]: Uploading image file ./fastlane/metadata/android/en-US/images/featureGraphic.jpeg...
+[16:52:25]: Uploading image file ./fastlane/metadata/android/en-US/images/icon.jpeg...
+[16:52:27]: Uploading screenshot ./fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png...
+[16:52:30]: Uploading screenshot ./fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png...
+[16:52:32]: Could not find changelog for '31' and language 'en-US' at path ./fastlane/metadata/android/en-US/changelogs/31.txt...
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/fastlane-2.142.0/supply/lib/supply/uploader.rb:235: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/google-api-client-0.36.4/generated/google/apis/androidpublisher_v3/classes.rb:1084: warning: The called method `initialize' is defined here
+[16:52:32]: Uploading all changes to Google Play...
+[16:52:34]: [32mSuccessfully finished the upload to Google Play[0m
+
++------+------------------+-------------+
+|           [32mfastlane summary[0m            |
++------+------------------+-------------+
+| Step | Action           | Time (in s) |
++------+------------------+-------------+
+| 1    | default_platform | 0           |
+| 2    | assembleRelease  | 74          |
+| 3    | supply           | 19          |
++------+------------------+-------------+
+
+[16:52:34]: [32mfastlane.tools finished successfully 🎉[0m
+
+#######################################################################
+# fastlane 2.144.0 is available. You are on 2.142.0.
+# You should use the latest version.
+# Please update using `sudo gem install fastlane`.
+#######################################################################
+# Run `sudo gem cleanup` from time to time to speed up fastlane
+#######################################################################
